@@ -1,18 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
-  <rect width="800" height="450" fill="#f5f5f5"/>
-  <rect x="150" y="55" width="500" height="300" rx="8" fill="#ffffff" stroke="#777" stroke-width="3"/>
-  <rect x="150" y="55" width="500" height="38" fill="#e5e5e5"/>
-  <circle cx="173" cy="74" r="5" fill="#999"/>
-  <circle cx="191" cy="74" r="5" fill="#999"/> 
-  <circle cx="209" cy="74" r="5" fill="#999"/>
-  <rect x="180" y="120" width="440" height="205" fill="#fafafa"/>
-  <g font-family="monospace" font-size="19" fill="#444">
-    <text x="205" y="160"> &lt;html&gt; </text>
-    <text x="225" y="195"> &lt;head&gt; </text>
-    <text x="245" y="230"> &lt;title&gt;My Website&lt;/title&gt; </text>
-    <text x="225" y="265"> &lt;/head&gt; </text>
-    <text x="225" y="300"> &lt;body&gt; </text>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#f3f5f7"/>
+
+  <text x="450" y="45" text-anchor="middle"
+        font-family="Arial" font-size="25" font-weight="bold" fill="#263746">
+    Generative AI in Web Development
+  </text>
+
+  <!-- Laptop -->
+  <rect x="45" y="100" width="500" height="310" rx="12" fill="#303b46"/>
+  <rect x="60" y="115" width="470" height="280" rx="5" fill="#ffffff"/>
+
+  <!-- Browser -->
+  <rect x="60" y="115" width="470" height="38" fill="#e4e8ec"/>
+  <circle cx="82" cy="134" r="6" fill="#999"/>
+  <circle cx="102" cy="134" r="6" fill="#999"/>
+  <circle cx="122" cy="134" r="6" fill="#999"/>
+  <text x="160" y="140" font-family="Arial" font-size="13" fill="#555">My first website</text>
+
+  <!-- Code editor -->
+  <rect x="75" y="165" width="220" height="210" fill="#263746"/>
+  <g font-family="monospace" font-size="14">
+    <text x="90" y="195" fill="#e7a6a6">&lt;html&gt;</text>
+    <text x="105" y="225" fill="#9fc5e8">&lt;head&gt;</text>
+    <text x="120" y="255" fill="#d6c58c">&lt;title&gt;Website&lt;/title&gt;</text>
+    <text x="105" y="285" fill="#9fc5e8">&lt;/head&gt;</text>
+    <text x="105" y="315" fill="#9fc5e8">&lt;body&gt;</text>
+    <text x="120" y="345" fill="#a8d5b5">&lt;h1&gt;Welcome&lt;/h1&gt;</text>
   </g>
-  <rect x="370" y="355" width="60" height="35" fill="#999"/>
-  <path d="M320 390 H480 L500 405 H300 Z" fill="#777"/>
+
+  <!-- Website preview -->
+  <rect x="310" y="165" width="205" height="210" fill="#f6f7f8"/>
+  <rect x="310" y="165" width="205" height="65" fill="#dce5ed"/>
+  <text x="412" y="205" text-anchor="middle" font-family="Arial" font-size="19" fill="#263746">My Website</text>
+  <rect x="335" y="250" width="155" height="12" rx="4" fill="#b8c4cf"/>
+  <rect x="350" y="275" width="125" height="9" rx="4" fill="#cbd3da"/>
+  <rect x="375" y="310" width="75" height="30" rx="4" fill="#71899c"/>
+  <text x="412" y="330" text-anchor="middle" font-family="Arial" font-size="11" fill="white">Learn more</text>
+
+  <path d="M170 410 L420 410 L450 435 L140 435 Z" fill="#89949e"/>
+
+  <!-- AI assistant panel -->
+  <rect x="585" y="100" width="270" height="310" rx="12" fill="white" stroke="#aab5be" stroke-width="2"/>
+  <rect x="585" y="100" width="270" height="52" rx="10" fill="#dfe7ed"/>
+  <text x="720" y="133" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#263746">AI Assistant</text>
+
+  <g font-family="Arial" font-size="15" fill="#34495e">
+    <rect x="605" y="175" width="230" height="48" rx="7" fill="#edf1f4"/>
+    <text x="620" y="195">Generate HTML code</text>
+    <text x="620" y="213" font-size="12">Create a web page</text>
+
+    <rect x="605" y="235" width="230" height="48" rx="7" fill="#edf1f4"/>
+    <text x="620" y="255">Explain the code</text>
+    <text x="620" y="273" font-size="12">Understand each step</text>
+
+    <rect x="605" y="295" width="230" height="48" rx="7" fill="#edf1f4"/>
+    <text x="620" y="315">Find programming errors</text>
+    <text x="620" y="333" font-size="12">Suggest corrections</text>
+
+    <text x="720" y="380" text-anchor="middle" font-size="13" fill="#607d8b">Learn • Create • Improve</text>
+  </g>
+
+  <text x="450" y="485" text-anchor="middle" font-family="Arial" font-size="17" fill="#455a64">
+    Helping beginners learn and build websites
+  </text>
 </svg>
